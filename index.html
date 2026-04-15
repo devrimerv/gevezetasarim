@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geveze Tasarım | Çok Yakında</title>
+    <style>
+        /* Modern ve Profesyonel Renk Paleti */
+        :root {
+            --ana-renk: #007BFF; /* Okyanus Mavisi */
+            --vurgu-renk: #FF7F50; /* Mercan Turuncusu */
+            --koyu: #2c3e50;
+            --acik: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--acik);
+            color: var(--koyu);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        .logo-placeholder {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--ana-renk);
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .logo-placeholder span {
+            color: var(--vurgu-renk);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .highlight {
+            color: var(--ana-renk);
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        /* Basit bir yükleme animasyonu */
+        .loader {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #eee;
+            border-top: 5px solid var(--vurgu-renk);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-placeholder">GEVEZE<span> TASARIM</span></div>
+        
+        <div class="loader"></div>
+        
+        <h1>Çok Yakında Konuşmaya Başlıyoruz!</h1>
+        
+        <p>
+            <span class="highlight">Mailing</span> ve <span class="highlight">Web Tasarım</span> dünyasında devrim yaratmak için hazırlanıyoruz! <br> <br> 
+            Sizin için harika fikirlerimiz var.
+        </p>
+
+        <div class="footer">
+            &copy; 2026 Geveze Tasarım & Dizayn | Tüm hakları saklıdır.
+        </div>
+    </div>
+
+</body>
+</html>
